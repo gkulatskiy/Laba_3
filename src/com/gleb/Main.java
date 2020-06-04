@@ -14,9 +14,9 @@ public class Main {
         Function F2 = new Difference(new Pow(2,new Cos(new Pow(3,new Linear(1)))),
                 new Division(new Linear(1),new Pow(0.5,new Sum(new Pow(2,new Constant(a)),
                 new Pow(2,new Constant(b))))));
-        System.out.println("F1="+F1.calculate(2.8));
-        System.out.println("F1="+F1.derivative().calculate(2.8));
-        System.out.println("F2="+F2.calculate(2.8));
-        System.out.println("F2="+F2.derivative().calculate(2.8));
+        System.out.println("f1="+F1.calculate(2.8));
+        System.out.println("f1="+F1.derivative().calculate(2.8));
+        System.out.println("f2="+F2.calculate(2.8));
+        System.out.println("f2="+F2.derivative().calculate(2.8));
     }
 }
